@@ -15,8 +15,8 @@ public class TransApi {
     }
 
     public TransApi() {
-        this.appid = "";
-        this.securityKey = "";
+        this.appid = "20201208000641286";
+        this.securityKey = "n0Nkrrj0kxzAHm7hFxXT";
     }
 
     public String getTransResult(String query, String from, String to) {
