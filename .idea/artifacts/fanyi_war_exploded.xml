@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="fanyi:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/fanyi_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="fanyi/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="fanyi" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jedis-2.9.0" />
+          <element id="library" level="project" name="gson-2.8.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
